@@ -1,0 +1,2 @@
+class HypermediaApiController < ApplicationController
+end
