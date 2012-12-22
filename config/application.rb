@@ -29,6 +29,9 @@ module HypermediaDemo
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-    config.test_framework :rspec, :views => false
+
+    config.generators do |g|
+      g.test_framework :rspec, :views => false
+    end
   end
 end
